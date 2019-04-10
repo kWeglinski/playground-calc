@@ -1,0 +1,38 @@
+.calc {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #2e3033;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.calc-buttons-left {
+    flex: 1 0 75%;
+}
+
+.calc-numbers, .calc-actions-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calc-actions-top div, .calc-numbers div {
+    flex: 1 0 33%;
+    border-right: 1px solid #2E3033;
+    border-bottom: 1px solid #2E3033;
+}
+
+.calc-buttons {
+    display: flex;
+    width: 100%;
+}
+
+.calc-actions {
+    flex: 1 0 25%;
+}
+
+.calc-actions div {
+    border-bottom: 1px solid #2E3033;
+}

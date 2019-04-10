@@ -1,0 +1,23 @@
+.calc-dial {
+    background: #626569;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+
+.calc-action {
+    background: #FF9F0A;
+}
+
+.calc-action-secondary {
+    background: #424447;
+}
